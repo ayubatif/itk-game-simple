@@ -1,0 +1,28 @@
+<!--
+Great resource and the inspiration for this tutorial!
+https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #223;
+            }
+            p {
+                color: #fff;
+                text-align: center;
+            }
+            #gameScreen {
+                /* OPTIONAL, it makes the game area centered */
+                margin: 0 auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="gameScreen" width="960" height="540"></canvas>
+        <p>Hit the hoop.<br>Controls: WASD to change trajectory, SPACE to shoot, R to restart.</p>
+        <script src="game.js"></script>
+    </body>
+</html>
